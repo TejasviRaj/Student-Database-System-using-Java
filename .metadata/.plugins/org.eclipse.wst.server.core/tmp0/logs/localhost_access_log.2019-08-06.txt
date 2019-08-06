@@ -123,3 +123,11 @@
 127.0.0.1 - - [06/Aug/2019:15:11:49 +0545] "GET /EADD-maven/logout HTTP/1.1" 302 -
 127.0.0.1 - - [06/Aug/2019:15:11:55 +0545] "POST /EADD-maven/home HTTP/1.1" 200 193
 127.0.0.1 - - [06/Aug/2019:15:11:57 +0545] "GET /EADD-maven/logout HTTP/1.1" 302 -
+127.0.0.1 - - [06/Aug/2019:15:19:01 +0545] "GET /EADD-maven/Logout HTTP/1.1" 302 -
+127.0.0.1 - - [06/Aug/2019:15:19:01 +0545] "GET /EADD-maven/index.html HTTP/1.1" 304 -
+127.0.0.1 - - [06/Aug/2019:15:19:01 +0545] "GET /favicon.ico HTTP/1.1" 404 1085
+127.0.0.1 - - [06/Aug/2019:15:23:29 +0545] "GET / HTTP/1.1" 404 1074
+127.0.0.1 - - [06/Aug/2019:15:23:29 +0545] "GET /EADD-maven/home HTTP/1.1" 302 -
+127.0.0.1 - - [06/Aug/2019:15:23:29 +0545] "GET /EADD-maven/index.html HTTP/1.1" 304 -
+127.0.0.1 - - [06/Aug/2019:15:25:17 +0545] "GET / HTTP/1.1" 404 1074
+127.0.0.1 - - [06/Aug/2019:15:25:18 +0545] "GET /EADD-maven/home HTTP/1.1" 302 -
