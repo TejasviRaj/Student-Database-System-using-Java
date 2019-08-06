@@ -110,3 +110,16 @@
 127.0.0.1 - - [06/Aug/2019:15:06:50 +0545] "GET /EADD-maven/home HTTP/1.1" 404 1093
 127.0.0.1 - - [06/Aug/2019:15:08:01 +0545] "GET / HTTP/1.1" 404 1074
 127.0.0.1 - - [06/Aug/2019:15:08:01 +0545] "GET /EADD-maven/home HTTP/1.1" 200 22
+127.0.0.1 - - [06/Aug/2019:15:09:38 +0545] "GET / HTTP/1.1" 404 1074
+127.0.0.1 - - [06/Aug/2019:15:09:38 +0545] "GET /EADD-maven/home HTTP/1.1" 302 -
+127.0.0.1 - - [06/Aug/2019:15:09:38 +0545] "GET /EADD-maven/index.html HTTP/1.1" 200 233
+127.0.0.1 - - [06/Aug/2019:15:09:59 +0545] "POST /EADD-maven/home HTTP/1.1" 200 193
+127.0.0.1 - - [06/Aug/2019:15:10:01 +0545] "GET /EADD-maven/logout HTTP/1.1" 404 1095
+127.0.0.1 - - [06/Aug/2019:15:11:02 +0545] "GET / HTTP/1.1" 404 1074
+127.0.0.1 - - [06/Aug/2019:15:11:02 +0545] "GET /EADD-maven/WEB-INF/classes/com/tejasvi/web/Logout.java HTTP/1.1" 404 1047
+127.0.0.1 - - [06/Aug/2019:15:11:40 +0545] "GET / HTTP/1.1" 404 1074
+127.0.0.1 - - [06/Aug/2019:15:11:40 +0545] "GET /EADD-maven/Logout HTTP/1.1" 302 -
+127.0.0.1 - - [06/Aug/2019:15:11:40 +0545] "GET /EADD-maven/index.html HTTP/1.1" 304 -
+127.0.0.1 - - [06/Aug/2019:15:11:49 +0545] "GET /EADD-maven/logout HTTP/1.1" 302 -
+127.0.0.1 - - [06/Aug/2019:15:11:55 +0545] "POST /EADD-maven/home HTTP/1.1" 200 193
+127.0.0.1 - - [06/Aug/2019:15:11:57 +0545] "GET /EADD-maven/logout HTTP/1.1" 302 -
