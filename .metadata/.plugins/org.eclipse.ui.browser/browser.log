@@ -1,0 +1,9 @@
+
+Aug 05, 2019 11:25:42.49 NEW SESSION
+Aug 05, 2019 11:25:42.49 [4307, Main Thread] ###!!! ABORT: file resource://gre/modules/TelemetryEnvironment.jsm, line 563
+Aug 05, 2019 11:25:42.49 [4307, Main Thread] ###!!! ABORT: file resource://gre/modules/TelemetryEnvironment.jsm, line 563
+Aug 05, 2019 11:25:42.49 ExceptionHandler::GenerateDump cloned child 4515
+Aug 05, 2019 11:25:42.50 ExceptionHandler::SendContinueSignalToChild sent continue signal to child
+Aug 05, 2019 11:25:42.50 ExceptionHandler::WaitForContinueSignal waiting for continue signal...
+Aug 05, 2019 11:26:09.23 
+Aug 05, 2019 11:26:09.23 (/usr/lib/firefox/firefox:4581): dconf-WARNING **: 11:26:09.238: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied

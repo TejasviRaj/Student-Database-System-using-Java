@@ -1,0 +1,12 @@
+package com.tejasvi;
+
+import java.io.PrintWriter;
+
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+
+@WebServlet("/logout")
+public class Logout extends HttpServlet {
+	PrintWriter out = response.getWriter();
+
+}

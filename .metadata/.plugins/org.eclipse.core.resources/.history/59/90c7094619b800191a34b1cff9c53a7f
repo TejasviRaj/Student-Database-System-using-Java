@@ -1,0 +1,8 @@
+package com.tejasvi;
+
+import javax.servlet.annotation.WebServlet;
+
+@WebServlet("/servlet1")
+public class Logout {
+
+}
