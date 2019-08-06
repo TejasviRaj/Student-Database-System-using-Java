@@ -1,7 +1,9 @@
 INDEX VERSION 1.131
-/home/tejasvi/Documents/Java/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2021105815.index
-/EADD/src
-/home/tejasvi/Documents/Java/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/590937404.index
-/01/src/main/resources
+/home/tejasvi/Documents/Java/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3523007721.index
+/EADD-maven/src/main/resources
 /home/tejasvi/Documents/Java/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1729081177.index
 /01/src/main/resources
+/home/tejasvi/Documents/Java/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/590937404.index
+/01/src/main/resources
+/home/tejasvi/Documents/Java/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2021105815.index
+/EADD/src
