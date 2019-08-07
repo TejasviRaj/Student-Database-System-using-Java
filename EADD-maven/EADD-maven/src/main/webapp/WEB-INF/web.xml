@@ -36,4 +36,53 @@
   	<url-pattern>/GetStudent</url-pattern>
   </servlet-mapping>
   
+<servlet>
+
+<servlet-name>Test Jersey Service</servlet-name>
+
+<!-- For Jersey 1.x -->
+
+<!-- <servlet-class>com.sun.jersey.spi.container.servlet.ServletContainer</servlet-class> -->
+
+<!-- For Jersey 2.x -->
+
+<servlet-class>org.glassfish.jersey.servlet.ServletContainer</servlet-class>
+
+<init-param>
+
+    <!-- For Jersey 1.x -->
+
+<!-- <param-name>com.sun.jersey.config.property.packages</param-name> -->
+
+<!-- For Jersey 2.x -->
+
+<param-name>jersey.config.server.provider.packages</param-name>
+
+<param-value>com.test</param-value>
+
+</init-param>
+
+<load-on-startup>1</load-on-startup>
+
+</servlet>
+<servlet>
+	<servlet-name>practicejson</servlet-name>
+	<display-name>practicejson</display-name>
+	<description></description>
+	<servlet-class>com.tejasvi.web.practicejson</servlet-class>
+</servlet>
+
+<servlet-mapping>
+
+<servlet-name>Test Jersey Service</servlet-name>
+
+<url-pattern>/rest/*</url-pattern>
+
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>practicejson</servlet-name>
+	<url-pattern>/practicejson</url-pattern>
+</servlet-mapping>
+
+  
 </web-app>
