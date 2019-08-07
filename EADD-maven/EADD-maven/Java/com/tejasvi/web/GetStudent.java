@@ -46,7 +46,16 @@ public class GetStudent extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		doGet(request, response);
+		
+		String student_Name= request.getParameter("student_Name");
+		int Grade= Integer.parseInt(request.getParameter("Grade"));
+		int Roll_no= Integer.parseInt(request.getParameter("Roll_no"));
+		String Gender= request.getParameter("Gender");
+		String Address= request.getParameter("Address");
+
+		PrintWriter out=response.getWriter();
+		
+		out.println(student_Name+" "+Grade+" "+Roll_no+" "+Gender+" "+Address);
 	}
 
 }
