@@ -39,25 +39,25 @@
 		
 
 		<div class="wrap-contact100">
-			<form class="contact100-form validate-form">
+			<form class="contact100-form validate-form" onsubmit="return addStudent()">
 				<span class="contact100-form-title">
 Add Student				</span>
 
 				<div class="wrap-input100 validate-input" data-validate="Name is required">
 					<span class="label-input100">Name</span>
-					<input class="input100" type="text" id="name" placeholder="Name...">
+					<input class="input100" type="text" placeholder="Name..." id="student_Name" required>
 					<span class="focus-input100"></span>
 				</div>
 
 				<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
 					<span class="label-input100">Grade</span>
-					<input class="input100" type="number" name="email" placeholder="Email addess...">
+					<input class="input100" type="number" name="email" placeholder="Grade.." id="Grade" required >
 					<span class="focus-input100"></span>
 				</div>
 
 				<div class="wrap-input100">
 					<span class="label-input100">Roll no</span>
-					<input class="input100" type="number" name="phone" placeholder="Phone Number...">
+					<input class="input100" type="number" name="phone" placeholder="Roll no.." id="Roll_no"  required>
 					
 
 					<span class="focus-input100"></span>
@@ -65,7 +65,7 @@ Add Student				</span>
 				
 				<div class="wrap-input100">
 					<span class="label-input100">Gender</span>
-<select id="Gender" class="input100">
+<select id="Gender" class="input100" id="Gender">
 <option value="Male" name="Male"> Male</option>
 <option value="Female" name="Female"> Female </option>
 
@@ -76,14 +76,14 @@ Add Student				</span>
 					
 				<div class="wrap-input100 validate-input" data-validate = "Message is required">
 					<span class="label-input100">Address</span>
-					<textarea class="input100" name="message" placeholder="Questions/Comments..."></textarea>
+					<textarea class="input100" name="message" placeholder="Address.." id="Address" required></textarea>
 					<span class="focus-input100"></span>
 				</div>
 
 				<div class="container-contact100-form-btn">
 					<div class="wrap-contact100-form-btn">
 						<div class="contact100-form-bgbtn"></div>
-						<button class="contact100-form-btn">
+						<button type="submit" class="contact100-form-btn">
 							Add Student
 						</button>
 					</div>
@@ -91,6 +91,9 @@ Add Student				</span>
 			</form>
 			
 			</div>
+			
+			<p id="para"> </p>
+<script  src="trp.js"></script>
 
 </body>
 </html>

@@ -1,6 +1,6 @@
 function addStudent()
 {
-	//alert("start");
+	alert("start");
 	var student_Name = document.getElementById("student_Name").value;
 	var Grade = document.getElementById("Grade").value;
 	var Roll_no = document.getElementById("Roll_no").value;
@@ -23,7 +23,7 @@ function addStudent()
 	xhr.setRequestHeader("content-type", "application/x-www-form-urlencoded");
 
 	xhr.send(data);
-//	alert("end");
+	alert("end");
 
 return false;
 }
