@@ -17,6 +17,12 @@
   	<description></description>
   	<servlet-class>com.tejasvi.web.Logout</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>GetStudent</servlet-name>
+  	<display-name>GetStudent</display-name>
+  	<description></description>
+  	<servlet-class>com.tejasvi.web.GetStudent</servlet-class>
+  </servlet>
   <servlet-mapping>
   	<servlet-name>Home</servlet-name>
   	<url-pattern>/home</url-pattern>
@@ -24,6 +30,10 @@
   <servlet-mapping>
   	<servlet-name>Logout</servlet-name>
   	<url-pattern>/Logout</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>GetStudent</servlet-name>
+  	<url-pattern>/GetStudent</url-pattern>
   </servlet-mapping>
   
 </web-app>

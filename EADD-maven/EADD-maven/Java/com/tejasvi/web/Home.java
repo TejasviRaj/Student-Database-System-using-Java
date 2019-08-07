@@ -16,7 +16,6 @@ import com.tejasvi.web.*;
  */
 public class Home extends HttpServlet {
 	private static final String NULL = null;
-
 	public void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		response.setContentType("text/html");
