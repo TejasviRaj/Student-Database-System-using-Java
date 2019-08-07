@@ -322,9 +322,9 @@ textarea.input100 {
   z-index: -1;
   width: 300%;
   height: 100%;
-  background: #df2351;
+  background: #3d5aaf;
   background: -webkit-linear-gradient(-135deg, #d5007d, #e53935, #d5007d, #e53935);
-  background: -o-linear-gradient(-135deg, #d5007d, #e53935, #d5007d, #e53935);
+  background: -o-linear-gradient(-135deg, 3d5aaf, 3d5aaf, #d5007d, #e53935);
   background: -moz-linear-gradient(-135deg, #d5007d, #e53935, #d5007d, #e53935);
   background: linear-gradient(-135deg, #d5007d, #e53935, #d5007d, #e53935);
   top: 0;
@@ -336,7 +336,41 @@ textarea.input100 {
   transition: all 0.4s;
 }
 
+.contact100-form-bgbtn2 {
+  position: absolute;
+  z-index: -1;
+  width: 300%;
+  height: 100%;
+  background: #5b7795;
+
+  top: 0;
+  left: -100%;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
 .contact100-form-btn {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  min-width: 244px;
+  height: 50px;
+
+  font-family: Poppins-Medium;
+  font-size: 16px;
+  color: #fff;
+  line-height: 1.2;
+}
+
+.contact100-form-btn2 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
