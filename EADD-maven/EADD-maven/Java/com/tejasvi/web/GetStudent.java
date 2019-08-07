@@ -47,6 +47,8 @@ public class GetStudent extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		
+		
+		
 		String student_Name= request.getParameter("student_Name");
 		int Grade= Integer.parseInt(request.getParameter("Grade"));
 		int Roll_no= Integer.parseInt(request.getParameter("Roll_no"));
@@ -61,7 +63,15 @@ public class GetStudent extends HttpServlet {
 		s.setAddress(Address);
 		PrintWriter out=response.getWriter();
 		
-		out.println(student_Name+" "+Grade+" "+Roll_no+" "+Gender+" "+Address);
+		EntityManagerFactory emf= Persistence.createEntityManagerFactory("tejas");
+		EntityManager em=emf.createEntityManager();
+		
+		em.getTransaction().begin();;
+		em.persist(s);
+		em.getTransaction().commit();;
+
+		
+		out.println(s);
 	}
 
 }
