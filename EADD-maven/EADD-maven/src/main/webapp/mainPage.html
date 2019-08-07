@@ -40,24 +40,24 @@
 
 		
 <div align="center">
-		<div class="wrap-contact100" align="center">
+		<div class="wrap-contact100">
 			<form class="contact100-form validate-form" onsubmit="return addStudent()" aligh="">
 				<span class="contact100-form-title" align="center">
 Add Student				</span>
 
-				<div class="wrap-input100 validate-input" data-validate="Name is required">
+				<div class="wrap-input100 validate-input" data-validate="Name is required" align="left">
 					<span class="label-input100">Name</span>
 					<input class="input100" type="text" placeholder="Name..." id="student_Name" required>
 					<span class="focus-input100"></span>
 				</div>
 
-				<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+				<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz" align="left">
 					<span class="label-input100">Grade</span>
 					<input class="input100" type="number" name="email" placeholder="Grade.." id="Grade" required >
 					<span class="focus-input100"></span>
 				</div>
 
-				<div class="wrap-input100">
+				<div class="wrap-input100" align="left">
 					<span class="label-input100">Roll no</span>
 					<input class="input100" type="number" name="phone" placeholder="Roll no.." id="Roll_no"  required>
 					
@@ -65,7 +65,7 @@ Add Student				</span>
 					<span class="focus-input100"></span>
 				</div>
 				
-				<div class="wrap-input100">
+				<div class="wrap-input100" align="left">
 					<span class="label-input100">Gender</span>
 <select id="Gender" class="input100" id="Gender">
 <option value="Male" name="Male"> Male</option>
@@ -76,7 +76,7 @@ Add Student				</span>
 					<span class="focus-input100"></span>
 				</div>
 					
-				<div class="wrap-input100 validate-input" data-validate = "Message is required">
+				<div class="wrap-input100 validate-input" data-validate = "Message is required" align="left">
 					<span class="label-input100">Address</span>
 					<textarea class="input100" name="message" placeholder="Address.." id="Address" required></textarea>
 					<span class="focus-input100"></span>
@@ -94,6 +94,11 @@ Add Student				</span>
 			
 			</div>
 			</div>
+			
+			<span class="contact100-form-title" align="center">
+Student Table			</span>
+			
+			
 			<table id="keywords" cellspacing="0" cellpadding="0">
     <thead>
       <tr>
@@ -102,8 +107,6 @@ Add Student				</span>
                         <th><span>Roll no</span></th>
                 <th><span>Gender</span></th>
                 <th><span>Address</span></th>
-        
-
       </tr>
     </thead>
     <tbody id="table_body">
