@@ -89,7 +89,7 @@ public class Home extends HttpServlet {
 		{
 			if (name.contentEquals("admin"))
 			{
-				RequestDispatcher rd= request.getRequestDispatcher("mainScreen.html");
+				RequestDispatcher rd= request.getRequestDispatcher("mainPage.html");
 				response.setContentType("text/html");
 				rd.forward(request,response);
 				
