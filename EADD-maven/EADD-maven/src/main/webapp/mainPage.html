@@ -27,6 +27,8 @@
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="css/util.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/table.css">
+	
 <!--===============================================================================================-->
 </head>
 <body>
@@ -37,10 +39,10 @@
 
 
 		
-
-		<div class="wrap-contact100">
-			<form class="contact100-form validate-form" onsubmit="return addStudent()">
-				<span class="contact100-form-title">
+<div align="center">
+		<div class="wrap-contact100" align="center">
+			<form class="contact100-form validate-form" onsubmit="return addStudent()" aligh="">
+				<span class="contact100-form-title" align="center">
 Add Student				</span>
 
 				<div class="wrap-input100 validate-input" data-validate="Name is required">
@@ -91,6 +93,35 @@ Add Student				</span>
 			</form>
 			
 			</div>
+			</div>
+			<table id="keywords" cellspacing="0" cellpadding="0">
+    <thead>
+      <tr>
+        <th><span>Name</span></th>
+                <th><span>Grade</span></th>
+                        <th><span>Roll no</span></th>
+                <th><span>Gender</span></th>
+                <th><span>Address</span></th>
+        
+
+      </tr>
+    </thead>
+    <tbody id="table_body">
+      <tr>
+        <td class="lalign">silly tshirts</td>
+        <td>6,000</td>
+        <td>110</td>
+
+      </tr>
+      <tr>
+        <td class="lalign">desktop workspace photos</td>
+        <td>2,200</td>
+        <td>500</td>
+        <
+      </tr>
+
+    </tbody>
+  </table>
 			
 			<p id="para"> </p>
 <script  src="trp.js"></script>
