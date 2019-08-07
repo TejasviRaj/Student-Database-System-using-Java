@@ -4,7 +4,7 @@
 <html>
 
 <script>
-alert("page load");
+//alert("page load");
 </script>
 <head>
 <meta charset="UTF-8">
@@ -14,9 +14,18 @@ alert("page load");
 
 <form onsubmit="return addStudent()">
 Name <input type="text" id="student_Name" required> <br>
-Grade <input type="text" id="Grade" required> <br>
-Roll No <input type="text" id="Roll_no" required> <br>
-Gender <input type="text" id="Gender" required> <br>
+Grade <input type="number" id="Grade" required> <br>
+Roll No <input type="number" id="Roll_no" required> <br>
+
+
+Gender
+
+<select id="Gender">
+<option value="Male" name="Male"> Male</option>
+<option value="Female" name="Female"> Female </option>
+
+</select>
+<br>
 Address <input type="text" id="Address" required> <br>
 <input type="submit" value="Add student">
 

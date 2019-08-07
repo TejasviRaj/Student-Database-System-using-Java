@@ -52,7 +52,13 @@ public class GetStudent extends HttpServlet {
 		int Roll_no= Integer.parseInt(request.getParameter("Roll_no"));
 		String Gender= request.getParameter("Gender");
 		String Address= request.getParameter("Address");
-
+		
+		Student s=new Student();
+		s.setStudent_Name(student_Name);
+		s.setGrade(Grade);
+		s.setRoll_no(Roll_no);
+		s.setGender(Gender);
+		s.setAddress(Address);
 		PrintWriter out=response.getWriter();
 		
 		out.println(student_Name+" "+Grade+" "+Roll_no+" "+Gender+" "+Address);
